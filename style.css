@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: #2941ab;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.content{
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+        background-position: 46% 4%;
+        -webkit-box-pack: center;
+        justify-content: center;
+        min-height: 846px;
+    }
+
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 15px 15px;
+}
+
+.navbar li{
+    padding: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1ed760
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    justify-content: space-evenly;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+}
+
+.vertical-bar {
+    border-right: 2px solid white;
+    margin: auto 17px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 3cm;  
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #1ed760;
+    
+}
+
+p {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    color:#2941ab;
+    font-weight: bold;
+    background: #1ed760;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 14px 32px;
+    border-radius: 40px;
+    border: none;
+  }
+
+.button:hover{
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+.footer {
+    background: black;
+}
+
+.footer-container {
+    max-width: 1100px;
+    padding: 80px;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-lists .list-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #919496;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.footer-lists li {
+    padding: 10px;
+}
+
+.country {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer-extras{
+    display: flex;
+    color: #919496;
+    font-size: 12px;
+}
+
+.footer-extras ul {
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-extras li {
+    padding: 5px;
+}
+
+.footer-extras li:last-child {
+    justify-content: flex-end;
+}
+
+
+cc {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
